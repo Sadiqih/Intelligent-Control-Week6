@@ -1,0 +1,8 @@
+Analisis & Diskusi
+
+Pada percobaan kali ini, saya melakukan percobaan dengan VsCode untuk program Canny Edge Detection & Lane Detection with Instance Segmentation. Pada program canny digunakan untuk mendeteksi tepian pada objek dengan mengenali transisi gambar objek dengan latar belakang atau pun dengan objek yang lain. Kemudian untuk program instance segemntation digunakan untuk melakukan segmentasi pada suatu objek tertentu melalui dataset yang sudah dilabelling. Perbedaan dari canny da IS ialah pada canny dimana outputnya berupa gamar hitam putih dengan garis putih yang mengelilingi tepi dari objek tidak dapat melakukan segmentasi se-akurat IS yang dapat melakukan identifikasi pada gambar real. Namun apabila kedua program ini dikombinasikan maka dapat membuat hasilnya menjadi lebih optimal dengan dapat meningkatkan akurasinya. Lalu apabila parameter pada canny diubah maka dapat berdampak pada hasil deteksi tepiannya.
+
+Diskusi
+1.	Pada saat memerlukan pendeteksian pada bentuk dari objek seperti benda yang kotak atau bundar, dan tidak memerlukan deteksi menggunakan gambar asli.
+2.	Memperbanyak data dengan labelling sesuai yang dengan apa yang kita perlukan.
+3.	Yaitu dengan membuat dataset yang berisi data jalur relnya dengan jumlah sebanyak mungkin sehingga kereta dapat mengenali dengan baik mana jalurnya dan mana yang merupakan objek lain 
